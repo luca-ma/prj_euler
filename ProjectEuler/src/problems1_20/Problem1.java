@@ -1,8 +1,7 @@
-package solved.prob1;
+package problems1_20;
 
 import java.time.Duration;
 import java.time.Instant;
-import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
 /**
