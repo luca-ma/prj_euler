@@ -17,7 +17,7 @@ public class Problem6 implements GenericProblem {
 	
 	public static final int MAX_NUM =100;
 	@Override
-	public int execProb() {
+	public Integer execProb() {
 
 		int sumSquares =0;
 		int squaresSum =0;

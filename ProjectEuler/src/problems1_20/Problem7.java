@@ -12,7 +12,7 @@ public class Problem7 implements GenericProblem {
 
 	private static final int NUM_PRIMES =10001;
 	@Override
-	public int execProb() {
+	public Integer execProb() {
 		int i =2;
 		int numPrim= 0;
 		boolean notFound = true;

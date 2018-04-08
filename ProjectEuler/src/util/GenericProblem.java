@@ -5,7 +5,7 @@ import java.time.Instant;
 
 public interface GenericProblem {
 
-	public int execProb();
+	public Number execProb();
 	
 	public default void exec() {
 		Instant start = Instant.now();
