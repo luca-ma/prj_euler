@@ -12,4 +12,11 @@ public class Utils {
 		}
 		return true;
 	}
+	
+	public static boolean isPerfectSquare(int num) {
+		double sqrt = Math.sqrt(num);
+		int x = (int) sqrt;
+		return (Math.pow(sqrt,2) == Math.pow(x,2));
+	}
+	
 }
