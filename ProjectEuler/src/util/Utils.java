@@ -1,5 +1,7 @@
 package util;
 
+import java.math.BigInteger;
+
 public class Utils {
 
 	
@@ -19,4 +21,18 @@ public class Utils {
 		return (Math.pow(sqrt,2) == Math.pow(x,2));
 	}
 	
+	public static long fibonacci(long num) {
+		if (num ==0) {
+			return 1;
+		}
+		return num * fibonacci(num-1);
+	}
+	
+	public static BigInteger fibonacci(BigInteger num) {
+		if (num.equals(BigInteger.ZERO)) {
+			return BigInteger.ONE;
+		}
+		BigInteger newNum = num.subtract(BigInteger.ONE);
+		return num.multiply(fibonacci(newNum));
+	}
 }
